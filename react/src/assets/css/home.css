@@ -1,0 +1,77 @@
+body{
+    background: rgb(255,255,255);
+}
+
+.nav-list{
+    background: rgb(249,0,0);
+    background: linear-gradient(0deg, rgba(250,0,0,1) 0%, rgba(255,0,0,0.8687850140056023) 24%, rgba(0,0,0,1) 33%);
+}
+
+.landing-page{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%,  rgba(255,0,0,1) 67%);
+}
+.carousel-root-div{
+    margin: 0 20px;
+}
+.carousel .control-arrow{
+    padding: 0px !important;
+    opacity: 1 !important;
+    background: rgba(0,0,0,0.2) !important;
+}
+.carousel .control-arrow:hover{
+    background: rgba(173, 7, 7, 0.833) !important;
+}
+
+.control-arrow.control-prev,.control-arrow.control-next{
+    /* width: 50px; */
+}
+
+.control-prev:before {
+    border-right: 20px solid #ffffff !important;
+    opacity: 1 !important;
+}
+
+.control-next:before {
+    border-left: 20px solid #ffffff !important;
+    opacity: 1 !important;
+}
+
+
+
+.carousel-nav-list{
+    margin: 0px 5px;
+}
+.carousel-nav-list:hover div div{
+    color: red;
+}
+
+.carousel-nav-list-bg{
+    content: '';
+    width: 100%;
+    position: absolute;
+    background:black;
+    opacity: 0.1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    border-radius: 0.5rem;
+}
+/* .product-image{
+    height:100px;
+} */
+.featured-products:hover img.product-image{
+    transition: all 400ms ease-in-out;
+    transform: scale(1.1);
+}
+
+.hero-list.active{
+    color: rgb(252 211 77);
+    border-bottom:4px solid rgb(252 211 77);
+}
+.promos-list.active{
+    color:rgb(225, 33, 33);
+    border-bottom:3px solid rgb(185 28 28);
+}
